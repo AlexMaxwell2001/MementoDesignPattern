@@ -1,0 +1,11 @@
+@startuml
+class User {
+    + UndoCount : int <<get>>
+    + RedoCount : int <<get>>
+    + User()
+    + Reset() : void
+    + Action(s:Shape, current:Canvas) : void
+    + Undo(canvas:Canvas) : void
+    + Redo(canvas:Canvas) : void
+}
+@enduml

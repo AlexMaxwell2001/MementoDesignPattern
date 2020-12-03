@@ -1,0 +1,11 @@
+@startuml
+class Circle {
+    + CX : int <<get>>
+    + CY : int <<get>>
+    + R : int <<get>>
+    + Id : int <<get>>
+    + Circle(cx:int, cy:int, r:int, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Circle
+@enduml

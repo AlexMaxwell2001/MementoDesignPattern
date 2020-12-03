@@ -1,0 +1,9 @@
+@startuml
+class Polyline {
+    + Points : string <<get>>
+    + Id : int <<get>>
+    + Polyline(points:string, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Polyline
+@enduml

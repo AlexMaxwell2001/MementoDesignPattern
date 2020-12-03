@@ -1,0 +1,12 @@
+@startuml
+class Ellipse {
+    + CX : int <<get>>
+    + CY : int <<get>>
+    + RX : int <<get>>
+    + RY : int <<get>>
+    + Id : int <<get>>
+    + Ellipse(cx:int, cy:int, rx:int, ry:int, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Ellipse
+@enduml

@@ -1,0 +1,38 @@
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/bin/Debug/netcoreapp3.1/MyCommand.deps.json
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/bin/Debug/netcoreapp3.1/MyCommand.runtimeconfig.json
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/bin/Debug/netcoreapp3.1/MyCommand.runtimeconfig.dev.json
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/bin/Debug/netcoreapp3.1/MyCommand.dll
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/bin/Debug/netcoreapp3.1/MyCommand.pdb
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/obj/Debug/netcoreapp3.1/MyCommand.csprojAssemblyReference.cache
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/obj/Debug/netcoreapp3.1/MyCommand.AssemblyInfoInputs.cache
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/obj/Debug/netcoreapp3.1/MyCommand.AssemblyInfo.cs
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/obj/Debug/netcoreapp3.1/MyCommand.csproj.CoreCompileInputs.cache
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/obj/Debug/netcoreapp3.1/MyCommand.dll
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/obj/Debug/netcoreapp3.1/MyCommand.pdb
+/Users/jgkeating/Courses/CS264-2021/CS264 Demos/CS264-W04/MyCommand/obj/Debug/netcoreapp3.1/MyCommand.genruntimeconfig.cache
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\bin\Debug\netcoreapp3.1\MyCommand.exe
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\bin\Debug\netcoreapp3.1\MyCommand.deps.json
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\bin\Debug\netcoreapp3.1\MyCommand.runtimeconfig.json
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\bin\Debug\netcoreapp3.1\MyCommand.runtimeconfig.dev.json
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\bin\Debug\netcoreapp3.1\MyCommand.dll
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\bin\Debug\netcoreapp3.1\MyCommand.pdb
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\obj\Debug\netcoreapp3.1\MyCommand.csprojAssemblyReference.cache
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\obj\Debug\netcoreapp3.1\MyCommand.AssemblyInfoInputs.cache
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\obj\Debug\netcoreapp3.1\MyCommand.AssemblyInfo.cs
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\obj\Debug\netcoreapp3.1\MyCommand.csproj.CoreCompileInputs.cache
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\obj\Debug\netcoreapp3.1\MyCommand.dll
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\obj\Debug\netcoreapp3.1\MyCommand.pdb
+C:\Users\alexm\onedrive\desktop\third\cs264\MyCommand\obj\Debug\netcoreapp3.1\MyCommand.genruntimeconfig.cache
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\bin\Debug\netcoreapp3.1\MyCommand.exe
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\bin\Debug\netcoreapp3.1\MyCommand.deps.json
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\bin\Debug\netcoreapp3.1\MyCommand.runtimeconfig.json
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\bin\Debug\netcoreapp3.1\MyCommand.runtimeconfig.dev.json
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\bin\Debug\netcoreapp3.1\MyCommand.dll
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\bin\Debug\netcoreapp3.1\MyCommand.pdb
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\obj\Debug\netcoreapp3.1\MyCommand.csprojAssemblyReference.cache
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\obj\Debug\netcoreapp3.1\MyCommand.AssemblyInfoInputs.cache
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\obj\Debug\netcoreapp3.1\MyCommand.AssemblyInfo.cs
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\obj\Debug\netcoreapp3.1\MyCommand.csproj.CoreCompileInputs.cache
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\obj\Debug\netcoreapp3.1\MyCommand.dll
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\obj\Debug\netcoreapp3.1\MyCommand.pdb
+C:\Users\alexm\onedrive\desktop\third\cs264\Memento\obj\Debug\netcoreapp3.1\MyCommand.genruntimeconfig.cache

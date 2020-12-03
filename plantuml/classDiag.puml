@@ -1,0 +1,106 @@
+@startuml
+class Canvas {
+    + Add(s:Shape) : void
+    + Remove() : void
+    + Canvas()
+    + <<override>> ToString() : string
+    + GetState() : ArrayList
+    + SetState(savedOne:Memento) : void
+}
+class Circle {
+    + CX : int <<get>>
+    + CY : int <<get>>
+    + R : int <<get>>
+    + Id : int <<get>>
+    + Circle(cx:int, cy:int, r:int, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Circle
+class Ellipse {
+    + CX : int <<get>>
+    + CY : int <<get>>
+    + RX : int <<get>>
+    + RY : int <<get>>
+    + Id : int <<get>>
+    + Ellipse(cx:int, cy:int, rx:int, ry:int, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Ellipse
+class Line {
+    + X1 : int <<get>>
+    + X2 : int <<get>>
+    + Y1 : int <<get>>
+    + Y2 : int <<get>>
+    + Id : int <<get>>
+    + Line(x1:int, x2:int, y1:int, y2:int, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Line
+class Memento {
+    + GetState() : ArrayList
+    + SetState(state:ArrayList) : void
+    + CreateMemento() : Memento
+    + SetMemento(ar:ArrayList) : void
+}
+class Path {
+    + D : string <<get>>
+    + Id : int <<get>>
+    + Path(d:string, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Path
+class Polygon {
+    + Points : string <<get>>
+    + Id : int <<get>>
+    + Polygon(points:string, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Polygon
+class Polyline {
+    + Points : string <<get>>
+    + Id : int <<get>>
+    + Polyline(points:string, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Polyline
+class Program {
+    + {static} Main() : void
+    + {static} RemoveSpaces(value:string) : string
+    + {static} Save(tempar:string []) : void
+    + {static} commandPrintout() : void
+    + {static} addShape(value1:string, value2:string, value3:string, value4:string, shape:string, id:string) : void
+    + {static} readWrite() : void
+    + {static} getString(newar:string []) : string
+}
+class Rectangle {
+    + X : int <<get>>
+    + Y : int <<get>>
+    + Width : int <<get>>
+    + Height : int <<get>>
+    + Id : int <<get>>
+    + Rectangle(x:int, y:int, width:int, height:int, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Rectangle
+abstract class Shape {
+    + <<override>> ToString() : string
+}
+class User {
+    + UndoCount : int <<get>>
+    + RedoCount : int <<get>>
+    + User()
+    + Reset() : void
+    + Action(s:Shape, current:Canvas) : void
+    + Undo(canvas:Canvas) : void
+    + Redo(canvas:Canvas) : void
+}
+class WordMaker {
+    + X : int <<get>>
+    + Y : int <<get>>
+    + Info : string <<get>>
+    + Id : int <<get>>
+    + WordMaker(x:int, y:int, information:string, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- WordMaker
+@enduml

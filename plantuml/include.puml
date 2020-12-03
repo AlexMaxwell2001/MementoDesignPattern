@@ -1,0 +1,18 @@
+@startuml
+!include .\\Canvas.puml
+!include .\\Circle.puml
+!include .\\Ellipse.puml
+!include .\\Line.puml
+!include .\\Memento.puml
+!include .\\Path.puml
+!include .\\Polygon.puml
+!include .\\Polyline.puml
+!include .\\Program.puml
+!include .\\Rectangle.puml
+!include .\\Shape.puml
+!include .\\User.puml
+!include .\\WordMaker.puml
+!include .\\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.puml
+!include .\\obj\Debug\netcoreapp3.1\Memento.AssemblyInfo.puml
+!include .\\obj\Debug\netcoreapp3.1\MyCommand.AssemblyInfo.puml
+@enduml

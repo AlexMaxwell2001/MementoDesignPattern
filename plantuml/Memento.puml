@@ -1,0 +1,8 @@
+@startuml
+class Memento {
+    + GetState() : ArrayList
+    + SetState(state:ArrayList) : void
+    + CreateMemento() : Memento
+    + SetMemento(ar:ArrayList) : void
+}
+@enduml

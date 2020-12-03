@@ -1,0 +1,10 @@
+@startuml
+class Canvas {
+    + Add(s:Shape) : void
+    + Remove() : void
+    + Canvas()
+    + <<override>> ToString() : string
+    + GetState() : ArrayList
+    + SetState(savedOne:Memento) : void
+}
+@enduml

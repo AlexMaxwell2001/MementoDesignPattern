@@ -1,0 +1,5 @@
+@startuml
+abstract class Shape {
+    + <<override>> ToString() : string
+}
+@enduml

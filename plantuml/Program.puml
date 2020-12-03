@@ -1,0 +1,11 @@
+@startuml
+class Program {
+    + {static} Main() : void
+    + {static} RemoveSpaces(value:string) : string
+    + {static} Save(tempar:string []) : void
+    + {static} commandPrintout() : void
+    + {static} addShape(value1:string, value2:string, value3:string, value4:string, shape:string, id:string) : void
+    + {static} readWrite() : void
+    + {static} getString(newar:string []) : string
+}
+@enduml

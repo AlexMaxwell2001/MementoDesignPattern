@@ -1,0 +1,9 @@
+@startuml
+class Path {
+    + D : string <<get>>
+    + Id : int <<get>>
+    + Path(d:string, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Path
+@enduml

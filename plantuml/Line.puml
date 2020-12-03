@@ -1,0 +1,12 @@
+@startuml
+class Line {
+    + X1 : int <<get>>
+    + X2 : int <<get>>
+    + Y1 : int <<get>>
+    + Y2 : int <<get>>
+    + Id : int <<get>>
+    + Line(x1:int, x2:int, y1:int, y2:int, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Line
+@enduml

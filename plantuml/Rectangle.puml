@@ -1,0 +1,12 @@
+@startuml
+class Rectangle {
+    + X : int <<get>>
+    + Y : int <<get>>
+    + Width : int <<get>>
+    + Height : int <<get>>
+    + Id : int <<get>>
+    + Rectangle(x:int, y:int, width:int, height:int, id:int)
+    + <<override>> ToString() : string
+}
+Shape <|-- Rectangle
+@enduml
